@@ -1,0 +1,5 @@
+# ninja log v5
+4	189	7143144516075714	build.ninja	735c5ebf411beb81
+3	564	7138954478568279	CMakeFiles/Oving4.dir/oppgave1.cpp.obj	64a2d6bac6fa951
+564	659	7138954479498270	Oving4.exe	a5420f161a0fc5eb
+11	2904	7143118031709135	CMakeFiles/oppgave2.dir/oppgave2.cpp.obj	70b2aa828c4b6bdc

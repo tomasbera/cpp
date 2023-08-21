@@ -1,0 +1,4 @@
+/mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving4/build/CMakeFiles/oppgave1.dir
+/mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving4/build/CMakeFiles/oppgave2.dir
+/mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving4/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving4/build/CMakeFiles/rebuild_cache.dir

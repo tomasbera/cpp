@@ -1,0 +1,5 @@
+# ninja log v5
+3	455	7131141861644455	CMakeFiles/untitled.dir/main.cpp.obj	b1551291d0202a63
+2	133	7143149147958741	build.ninja	a0f86e148b62f7d0
+8	420	7131140464119418	CMakeFiles/untitled.dir/temperature.cpp.obj	9ef5b1165336b37f
+455	544	7131141862514795	untitled.exe	1854a5d5deefc5eb

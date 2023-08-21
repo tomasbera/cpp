@@ -1,0 +1,27 @@
+
+
+oppgave 2:
+
+char *line = nullptr;   // eller char *line = 0;
+strcpy(line, "Dette er en tekst");
+
+koden vil kjøre gjennom og avslutte, men det er en feil i programet ved at vi
+sier at *line = nullptr og det er dermed ingen plass når vi skal bruke strcpy
+siden vi ikke har allokert noe minne til pekeren
+
+
+
+oppgave 3:
+char text[5];                      setter av plass til 4 char + '\0'
+char *pointer = text;              setter pekeren til å peke på første plass i lista
+char search_for = 'e';             sier at søker bokstaven er 'e'
+cin >> text;                       her kan det gå galt hvis vi sier at text er større en 4 chars
+while (*pointer != search_for) {   her kan det gå galt for hvis ikke e er i ordet så vil -
+                                   pekeren begynne å peke tilfeldig i minnet
+                                   *pointer != '\0' hadde vært bedre
+
+  *pointer = search_for;           skjønner ikke hvorfor en skulle a byttet verdien til char til søke char
+                                   burde heller ha vært en if settning som sjekker om de er like
+
+  pointer++;                       øker verdien til pointer og dermed går ett hakk videre i listen
+}
