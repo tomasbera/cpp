@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving5
+CMAKE_SOURCE_DIR = /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving5/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving6/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving5/build/CMakeFiles /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving5/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving6/build/CMakeFiles /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving6/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving5/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving6/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named oppgave12
+# Target rules for targets named oppgave1
 
 # Build rule for target.
-oppgave12: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 oppgave12
-.PHONY : oppgave12
+oppgave1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 oppgave1
+.PHONY : oppgave1
 
 # fast build rule for target.
-oppgave12/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave12.dir/build.make CMakeFiles/oppgave12.dir/build
-.PHONY : oppgave12/fast
+oppgave1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave1.dir/build.make CMakeFiles/oppgave1.dir/build
+.PHONY : oppgave1/fast
 
-oppgave12.o: oppgave12.cpp.o
-.PHONY : oppgave12.o
+#=============================================================================
+# Target rules for targets named oppgave2
+
+# Build rule for target.
+oppgave2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 oppgave2
+.PHONY : oppgave2
+
+# fast build rule for target.
+oppgave2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave2.dir/build.make CMakeFiles/oppgave2.dir/build
+.PHONY : oppgave2/fast
+
+oppgave1.o: oppgave1.cpp.o
+.PHONY : oppgave1.o
 
 # target to build an object file
-oppgave12.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave12.dir/build.make CMakeFiles/oppgave12.dir/oppgave12.cpp.o
-.PHONY : oppgave12.cpp.o
+oppgave1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave1.dir/build.make CMakeFiles/oppgave1.dir/oppgave1.cpp.o
+.PHONY : oppgave1.cpp.o
 
-oppgave12.i: oppgave12.cpp.i
-.PHONY : oppgave12.i
+oppgave1.i: oppgave1.cpp.i
+.PHONY : oppgave1.i
 
 # target to preprocess a source file
-oppgave12.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave12.dir/build.make CMakeFiles/oppgave12.dir/oppgave12.cpp.i
-.PHONY : oppgave12.cpp.i
+oppgave1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave1.dir/build.make CMakeFiles/oppgave1.dir/oppgave1.cpp.i
+.PHONY : oppgave1.cpp.i
 
-oppgave12.s: oppgave12.cpp.s
-.PHONY : oppgave12.s
+oppgave1.s: oppgave1.cpp.s
+.PHONY : oppgave1.s
 
 # target to generate assembly for a file
-oppgave12.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave12.dir/build.make CMakeFiles/oppgave12.dir/oppgave12.cpp.s
-.PHONY : oppgave12.cpp.s
+oppgave1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave1.dir/build.make CMakeFiles/oppgave1.dir/oppgave1.cpp.s
+.PHONY : oppgave1.cpp.s
+
+oppgave2.o: oppgave2.cpp.o
+.PHONY : oppgave2.o
+
+# target to build an object file
+oppgave2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave2.dir/build.make CMakeFiles/oppgave2.dir/oppgave2.cpp.o
+.PHONY : oppgave2.cpp.o
+
+oppgave2.i: oppgave2.cpp.i
+.PHONY : oppgave2.i
+
+# target to preprocess a source file
+oppgave2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave2.dir/build.make CMakeFiles/oppgave2.dir/oppgave2.cpp.i
+.PHONY : oppgave2.cpp.i
+
+oppgave2.s: oppgave2.cpp.s
+.PHONY : oppgave2.s
+
+# target to generate assembly for a file
+oppgave2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oppgave2.dir/build.make CMakeFiles/oppgave2.dir/oppgave2.cpp.s
+.PHONY : oppgave2.cpp.s
 
 # Help Target
 help:
@@ -161,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... oppgave12"
-	@echo "... oppgave12.o"
-	@echo "... oppgave12.i"
-	@echo "... oppgave12.s"
+	@echo "... oppgave1"
+	@echo "... oppgave2"
+	@echo "... oppgave1.o"
+	@echo "... oppgave1.i"
+	@echo "... oppgave1.s"
+	@echo "... oppgave2.o"
+	@echo "... oppgave2.i"
+	@echo "... oppgave2.s"
 .PHONY : help
 
 
