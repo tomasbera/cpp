@@ -218,15 +218,6 @@ fraction_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 fraction_SOURCE_DIR:STATIC=/mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving7
 
-//Value Computed by CMake
-untitled_BINARY_DIR:STATIC=/mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving7/build
-
-//Value Computed by CMake
-untitled_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-untitled_SOURCE_DIR:STATIC=/mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving7
-
 
 ########################
 # INTERNAL cache entries

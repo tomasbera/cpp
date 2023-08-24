@@ -1,3 +1,4 @@
 /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving7/build/CMakeFiles/fraction.dir
+/mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving7/build/CMakeFiles/set.dir
 /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving7/build/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving7/build/CMakeFiles/rebuild_cache.dir

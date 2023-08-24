@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving7/fraction.cpp" "CMakeFiles/fraction.dir/fraction.cpp.o" "gcc" "CMakeFiles/fraction.dir/fraction.cpp.o.d"
-  "/mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving7/main.cpp" "CMakeFiles/fraction.dir/main.cpp.o" "gcc" "CMakeFiles/fraction.dir/main.cpp.o.d"
+  "/mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving7/oppgave1/fraction.cpp" "CMakeFiles/fraction.dir/oppgave1/fraction.cpp.o" "gcc" "CMakeFiles/fraction.dir/oppgave1/fraction.cpp.o.d"
+  "/mnt/c/Users/Tomas/CLionProjects/Ovinger/Oving7/oppgave1/main.cpp" "CMakeFiles/fraction.dir/oppgave1/main.cpp.o" "gcc" "CMakeFiles/fraction.dir/oppgave1/main.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fraction.dir/fraction.cpp.o"
-  "CMakeFiles/fraction.dir/fraction.cpp.o.d"
-  "CMakeFiles/fraction.dir/main.cpp.o"
-  "CMakeFiles/fraction.dir/main.cpp.o.d"
+  "CMakeFiles/fraction.dir/oppgave1/fraction.cpp.o"
+  "CMakeFiles/fraction.dir/oppgave1/fraction.cpp.o.d"
+  "CMakeFiles/fraction.dir/oppgave1/main.cpp.o"
+  "CMakeFiles/fraction.dir/oppgave1/main.cpp.o.d"
   "fraction"
   "fraction.pdb"
 )

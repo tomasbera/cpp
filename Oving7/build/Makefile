@@ -129,53 +129,114 @@ fraction/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/build
 .PHONY : fraction/fast
 
-fraction.o: fraction.cpp.o
-.PHONY : fraction.o
+#=============================================================================
+# Target rules for targets named set
+
+# Build rule for target.
+set: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 set
+.PHONY : set
+
+# fast build rule for target.
+set/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/build
+.PHONY : set/fast
+
+oppgave1/fraction.o: oppgave1/fraction.cpp.o
+.PHONY : oppgave1/fraction.o
 
 # target to build an object file
-fraction.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/fraction.cpp.o
-.PHONY : fraction.cpp.o
+oppgave1/fraction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/oppgave1/fraction.cpp.o
+.PHONY : oppgave1/fraction.cpp.o
 
-fraction.i: fraction.cpp.i
-.PHONY : fraction.i
+oppgave1/fraction.i: oppgave1/fraction.cpp.i
+.PHONY : oppgave1/fraction.i
 
 # target to preprocess a source file
-fraction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/fraction.cpp.i
-.PHONY : fraction.cpp.i
+oppgave1/fraction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/oppgave1/fraction.cpp.i
+.PHONY : oppgave1/fraction.cpp.i
 
-fraction.s: fraction.cpp.s
-.PHONY : fraction.s
+oppgave1/fraction.s: oppgave1/fraction.cpp.s
+.PHONY : oppgave1/fraction.s
 
 # target to generate assembly for a file
-fraction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/fraction.cpp.s
-.PHONY : fraction.cpp.s
+oppgave1/fraction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/oppgave1/fraction.cpp.s
+.PHONY : oppgave1/fraction.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+oppgave1/main.o: oppgave1/main.cpp.o
+.PHONY : oppgave1/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/main.cpp.o
-.PHONY : main.cpp.o
+oppgave1/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/oppgave1/main.cpp.o
+.PHONY : oppgave1/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+oppgave1/main.i: oppgave1/main.cpp.i
+.PHONY : oppgave1/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/main.cpp.i
-.PHONY : main.cpp.i
+oppgave1/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/oppgave1/main.cpp.i
+.PHONY : oppgave1/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+oppgave1/main.s: oppgave1/main.cpp.s
+.PHONY : oppgave1/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/main.cpp.s
-.PHONY : main.cpp.s
+oppgave1/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fraction.dir/build.make CMakeFiles/fraction.dir/oppgave1/main.cpp.s
+.PHONY : oppgave1/main.cpp.s
+
+oppgave2/Set.o: oppgave2/Set.cpp.o
+.PHONY : oppgave2/Set.o
+
+# target to build an object file
+oppgave2/Set.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/oppgave2/Set.cpp.o
+.PHONY : oppgave2/Set.cpp.o
+
+oppgave2/Set.i: oppgave2/Set.cpp.i
+.PHONY : oppgave2/Set.i
+
+# target to preprocess a source file
+oppgave2/Set.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/oppgave2/Set.cpp.i
+.PHONY : oppgave2/Set.cpp.i
+
+oppgave2/Set.s: oppgave2/Set.cpp.s
+.PHONY : oppgave2/Set.s
+
+# target to generate assembly for a file
+oppgave2/Set.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/oppgave2/Set.cpp.s
+.PHONY : oppgave2/Set.cpp.s
+
+oppgave2/main.o: oppgave2/main.cpp.o
+.PHONY : oppgave2/main.o
+
+# target to build an object file
+oppgave2/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/oppgave2/main.cpp.o
+.PHONY : oppgave2/main.cpp.o
+
+oppgave2/main.i: oppgave2/main.cpp.i
+.PHONY : oppgave2/main.i
+
+# target to preprocess a source file
+oppgave2/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/oppgave2/main.cpp.i
+.PHONY : oppgave2/main.cpp.i
+
+oppgave2/main.s: oppgave2/main.cpp.s
+.PHONY : oppgave2/main.s
+
+# target to generate assembly for a file
+oppgave2/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/oppgave2/main.cpp.s
+.PHONY : oppgave2/main.cpp.s
 
 # Help Target
 help:
@@ -186,12 +247,19 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fraction"
-	@echo "... fraction.o"
-	@echo "... fraction.i"
-	@echo "... fraction.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... set"
+	@echo "... oppgave1/fraction.o"
+	@echo "... oppgave1/fraction.i"
+	@echo "... oppgave1/fraction.s"
+	@echo "... oppgave1/main.o"
+	@echo "... oppgave1/main.i"
+	@echo "... oppgave1/main.s"
+	@echo "... oppgave2/Set.o"
+	@echo "... oppgave2/Set.i"
+	@echo "... oppgave2/Set.s"
+	@echo "... oppgave2/main.o"
+	@echo "... oppgave2/main.i"
+	@echo "... oppgave2/main.s"
 .PHONY : help
 
 
