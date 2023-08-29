@@ -1,0 +1,3 @@
+C:/Users/Tomas/CLionProjects/Oving9/cmake-build-debug/CMakeFiles/Oving9.dir
+C:/Users/Tomas/CLionProjects/Oving9/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Tomas/CLionProjects/Oving9/cmake-build-debug/CMakeFiles/rebuild_cache.dir
